@@ -1,0 +1,109 @@
+.chat {
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.chatMenu {
+    flex: 2;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(179, 179, 179,0.8);
+    border-radius: 5px;
+}
+
+.chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    margin-bottom: 5px !important;
+}
+
+.chatBox {
+    flex: 8;
+    padding: 10px 20px;
+}
+
+.chatBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.chatBoxTop {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+.chatBoxBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatBoxInput {
+    width: 80% !important;
+    height: 20px !important;
+    padding: 10px !important;
+    border-radius: 10px;
+    outline: none !important;
+    border: 2px solid gray;
+}
+
+.chatBoxInput:hover {
+    border: 2px solid teal;
+}
+
+.chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+
+.chatSubmitButton:hover {
+    cursor: pointer;
+    background-color: rgb(2, 143, 143);
+}
+
+.chatMenuWrapper, 
+.chatBoxWrapper, 
+.chatOnlineWrapper {
+    padding: 10px;
+    height: 100%;
+}
+
+.noConversationText {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: rgb(220,220,220);
+    cursor: default;
+    user-select: none;
+    text-align: center;
+}
+
+.chatImage > .MuiSvgIcon-root {
+    color: #FF6347;
+    cursor: pointer;
+}
+
+.chatEmoji {
+    cursor: pointer;
+}

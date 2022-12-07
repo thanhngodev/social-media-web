@@ -1,0 +1,29 @@
+.feed {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedWrapper {
+    padding: 15px 50px;
+}
+
+.postWrapper {
+    width: 535px;
+    margin: auto;
+}
+
+.progress-circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.feedNotPost {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}

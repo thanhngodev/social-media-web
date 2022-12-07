@@ -1,0 +1,12 @@
+.covid19Top {
+    display: flex;
+}
+
+.covid19Left {
+    margin-left: 3%;
+    margin-right: 35%;
+}
+
+.covid19HightLight {
+    margin-top: 10px;
+}

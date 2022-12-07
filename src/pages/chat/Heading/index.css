@@ -1,0 +1,12 @@
+.chatBoxTop-heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    position: fixed;
+    width: 76.7%;
+    padding: 5px 0;
+    background: #fff;
+    z-index: 2;
+}
